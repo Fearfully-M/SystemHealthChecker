@@ -161,7 +161,7 @@ The monitor includes basic error handling for two expected situations.
 
 ## Hybrid Logging 
 
-Hybrid-logging: instead of simply writing to a txt file the resources that pass the predetermined threshold, the monitor writes every resource to the file on every interval with timestamps. This is important so a user can diagnose potential issues before they arise that might not surprise the predetermined threshold (high CPU usage on a normally low CPU usage application). These values are also important for statistical analysis to get trends on how the machine performs over long durations of time
+Hybrid-logging: instead of simply writing to a txt file the resources that pass the predetermined threshold, the monitor writes every resource to the file on every interval with timestamps. This is important so a user can diagnose potential issues before they arise that might not surpass the predetermined threshold (high CPU usage on a normally low CPU usage application). These values are also important for statistical analysis to get trends on how the machine performs over long durations of time
 
 ### Keyboard Interrupt
 
